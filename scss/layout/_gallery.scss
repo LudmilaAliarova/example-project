@@ -1,0 +1,27 @@
+/*.container {
+    width: 1280px;
+    height: 430px;
+    padding: 0 136px;
+}*/
+.block {
+    max-width: fit-content;
+    display: inline-block;
+    flex-direction: column;
+    columns: 6;
+}
+.grid-wrapper {
+    background-color: aqua;
+    display: flex;
+   // width: 1008px;
+  //flex-flow: column wrap;
+}
+/*.min {
+	max-width: 140px;
+	max-height: 140px;
+	//vertical-align: middle;
+	//display: inline-block;
+}*/
+.grid-wrapper .big {
+	//grid-column: span 2;
+	//grid-row: span 2;
+}
